@@ -3,7 +3,7 @@ library(tidyverse)
 set.seed(89234)
 
 sim_df <- expand_grid(
-  id = seq(1, 50),
+  id = seq(1, 100),
   stage = c(1, 2)
 ) %>%
   group_by(id) %>%
